@@ -21,10 +21,10 @@ install:
   - sudo wget -nv https://dl.bintray.com/mitchellh/vagrant/vagrant_1.7.4_x86_64.deb
   - sudo dpkg -i vagrant_1.7.4_x86_64.deb
 
-  - sudo apt-get install virtualbox-dkms
-  - sudo apt-get install virtualbox-ose-dkms
+  3 - sudo apt-get install virtualbox-dkms
+  #- sudo apt-get install virtualbox-ose-dkms
   - sudo apt-get install build-essential
-  - sudo apt-get install linux-headers-`uname -r`
+  - sudo apt-get install linux-headers--2.6.32
   
   - sudo /etc/init.d/vboxdrv setup
   - cat /var/log/vbox-install.log
