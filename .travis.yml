@@ -23,7 +23,8 @@ install:
 
   - sudo apt-get install virtualbox-dkms
   - sudo apt-get install virtualbox-ose-dkms
-  - sudo apt-get install linux-headers
+  - sudo apt-get install build-essential
+  - sudo apt-get install linux-headers-`uname -r`
   
   - sudo /etc/init.d/vboxdrv setup
   - cat /var/log/vbox-install.log
