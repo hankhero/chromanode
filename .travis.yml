@@ -7,8 +7,9 @@ install:
 node_js:
   - "0.10"
 env:
-  - TEST_SUITE=ping
+  - TEST_SUITE=lint
+# We use vagrant to test a complete server setup
 before_script:
-  - vagrant up
+  - vagrant up 
 script:
   "sleep 30s ; ./vgr/ping.sh"
