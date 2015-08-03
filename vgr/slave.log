@@ -1,0 +1,27 @@
+2015-08-03T12:25:46.226Z - info: Getting storage client for notification...
+2015-08-03T12:25:46.374Z - info: Creating db tables...
+2015-08-03T12:25:46.422Z - info: Creating db indices...
+2015-08-03T12:25:46.463Z - info: Insert version and network to info...
+2015-08-03T12:25:46.470Z - info: Storage ready...
+2015-08-03T12:25:48.759Z - info: Slave server listening port 3001
+2015-08-03T12:32:21.773Z - info: Getting storage client for notification...
+2015-08-03T12:32:22.033Z - info: Storage ready...
+2015-08-03T12:32:27.623Z - info: Slave server listening port 3001
+2015-08-03T12:33:02.155Z - info: [90mGET /[39m [32m200[39m [90m6ms[39m
+2015-08-03T12:35:07.727Z - info: [90mGET /[39m [32m200[39m [90m1ms[39m
+2015-08-03T12:39:00.771Z - info: [90mGET /[39m [32m200[39m [90m1ms[39m
+2015-08-03T12:42:25.883Z - info: [90mGET /headers/latest[39m [32m200[39m [90m148ms[39m
+2015-08-03T14:40:16.028Z - info: [90mGET /headers/latest[39m [32m200[39m [90m282ms[39m
+2015-08-03T14:40:25.691Z - info: [90mGET /headers/latest[39m [32m200[39m [90m13ms[39m
+2015-08-03T14:40:35.130Z - info: [90mGET /headers/latest[39m [32m200[39m [90m4ms[39m
+2015-08-03T14:41:16.217Z - info: [90mGET /headers/latest[39m [32m200[39m [90m101ms[39m
+2015-08-03T14:41:18.505Z - info: [90mGET /headers/latest[39m [32m200[39m [90m3ms[39m
+2015-08-03T14:42:34.470Z - info: [90mGET /headers/latest[39m [32m200[39m [90m89ms[39m
+2015-08-03T14:43:20.693Z - info: [90mGET /headers/latest[39m [32m200[39m [90m137ms[39m
+2015-08-03T14:43:23.603Z - info: [90mGET /headers/latest[39m [32m200[39m [90m71ms[39m
+2015-08-03T14:43:37.283Z - info: [90mGET /headers/latest[39m [32m200[39m [90m12ms[39m
+2015-08-03T14:45:41.460Z - info: [90mGET /headers/latest[39m [32m200[39m [90m65ms[39m
+2015-08-03T14:46:27.640Z - info: [90mGET /headers/latest[39m [32m200[39m [90m416ms[39m
+2015-08-03T14:46:33.113Z - info: [90mGET /headers/latest[39m [32m200[39m [90m2ms[39m
+2015-08-03T14:46:58.440Z - info: [90mGET /headers/latest[39m [32m200[39m [90m47ms[39m
+2015-08-03T14:47:03.871Z - info: [90mGET /headers/latest[39m [32m200[39m [90m13ms[39m

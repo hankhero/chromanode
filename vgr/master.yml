@@ -1,0 +1,22 @@
+chromanode:
+  network: testnet # livenet | testnet
+  sync:
+    maxCachedBlocks: 2 # useful for remote bitcoind
+
+logger:
+  level: verbose # verbose, info, warning, error
+  filename: master.log
+
+postgresql:
+  url: postgres://vagrant:apassword@localhost:5432/chromanode_testnet
+
+bitcoind:
+  peer:
+    host: localhost
+    port: 18333
+  rpc:
+    host: localhost
+    port: 18332
+    user: bitcoinrpc
+    pass: test_password_to_bitcoind
+    protocol: http
