@@ -1,7 +1,5 @@
 apt-get update
 
-
-
 apt-get install -y postgresql
 
 apt-get install -y libpq-dev # Required for nodejs postgres bindings
@@ -16,7 +14,7 @@ source /vagrant/vgr/db-setup.sh
 # apt-get install -y nodejs
 # apt-get install -y nodejs-legacy
 # apt-get install -y npm
-# 
+
 
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.25.4/install.sh | bash
 
