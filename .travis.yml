@@ -2,9 +2,9 @@ language: node_js
 sudo: false
 addons:
   apt:
-    package:
+    packages:
       - vagrant
-install:
+#install:
 #   - sudo apt-get update
 #   - sudo apt-get install vagrant
 #  - sudo apt-get update -q
