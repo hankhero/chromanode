@@ -8,6 +8,9 @@ install:
   - sudo apt-get update
   - sudo apt-get install libsdl1.2debian
   - sudo apt-get install libvpx1
+  - sudo apt-get install dkms
+
+
 #  - sudo wget -nv http://download.virtualbox.org/virtualbox/4.3.30/virtualbox-4.3_4.3.30-101610~Ubuntu~precise_amd64.deb
 #  - sudo dpkg -i virtualbox-4.3_4.3.30-101610~Ubuntu~precise_amd64.deb
 
@@ -23,10 +26,10 @@ install:
 
   # - sudo apt-get install virtualbox-dkms
   #- sudo apt-get install virtualbox-ose-dkms
-  - sudo apt-get install build-essential
-  - sudo apt-get install linux-headers--2.6.32
+  # - sudo apt-get install build-essential
+  #- sudo apt-get install linux-headers--2.6.32
   
-  - sudo /etc/init.d/vboxdrv setup
+  # - sudo /etc/init.d/vboxdrv setup
   - sudo VBoxManage --version
   
   
