@@ -1,15 +1,16 @@
 language: node_js
 install:
-  - sudo apt-get update -q
-  - sudo apt-get install -q virtualbox --fix-missing
-  - sudo wget -nv https://dl.bintray.com/mitchellh/vagrant/vagrant_1.7.2_x86_64.deb
-  - sudo dpkg -i vagrant_1.7.2_x86_64.deb
+   - sudo apt-get install vagrant
+#  - sudo apt-get update -q
+#  - sudo apt-get install -q virtualbox --fix-missing
+#  - sudo wget -nv https://dl.bintray.com/mitchellh/vagrant/vagrant_1.7.2_x86_64.deb
+#  - sudo dpkg -i vagrant_1.7.2_x86_64.deb
+
 node_js:
   - "0.10"
 env:
   - TEST_SUITE=lint
-# We use vagrant to test a complete server setup
 before_script:
-  - vagrant up 
+  - vagrant up
 script:
   "sleep 30s ; ./vgr/ping.sh"
